@@ -1,0 +1,366 @@
+p          {
+                               font-size: 15px;
+                               color:rgb(0,0,0) ;
+                               font-color:rgb(255,255,255);
+                               float:left;
+		   }
+                   
+                    h1        {
+                                font-family: ar berkley;
+                              }
+                    
+   .loves4{
+		border-style:outset;
+		border-radius:40px;
+                 float:left;
+              width:450px;
+    height:600px;
+  }
+	
+.witlove{
+	width:4000px; 
+	height:605px;
+	overflow:scroll;			
+ }
+	  
+   .withlove{
+       width:750px; 
+	height:610px;
+	overflow:scroll; 
+       alignment:center;
+	 background-color:rgba(137, 207, 240, .7);
+	border-radius:40px;
+	   z-index:99999;
+ }
+		
+    .registrationbutton{
+background-color:rgb(0, 215, 255, .5);
+	background-size:300px 150px;      
+	  z-index:9999;
+	position:absolute;
+	border-radius:50px;
+        height:150px;
+        top:1300px;
+	width:90%;
+       left:50px;
+	border-style:outset;
+       border-color:rgb(255, 255, 255);
+}
+
+		   .registrationbutton2{
+        background-color:rgba(0, 215, 255, .5);
+	background-size:300px 150px;      
+	  z-index:999999;
+	position:absolute;
+	border-radius:50px;
+        left:40%;
+        height:150px;
+        top:75px;
+	width:30%;
+	border-style:outset;
+}
+
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes litz{
+ 0% { top:400px;}
+50% {top:600px;}
+100% { top: 400px;}
+
+  
+}
+		  
+@keyframes  litz{
+ 0% { top:400px;}
+50% {top:600px;}
+100% { top: 400px;}
+
+}
+
+
+html {  background-image:url('https://i.pinimg.com/originals/d1/33/48/d13348d7a8b42622829ade83a8adfb19.jpg');
+	height:100%;
+		width:100%;
+	overflow:hidden;
+}
+
+#left-sidebar{
+  float:left;
+  width:430px;
+  padding-top:5px;	
+}
+
+#right-sidebar{
+  float:right;
+  width:401px;
+	
+}
+
+
+
+
+h3{
+  color:rgb(255,0,0);
+  font-size:50px;
+	background-color:rgb(225, 225, 225);
+}
+
+h2{
+	font-size:20px;
+	text-align:left;
+	color:#white;
+}
+h8{
+	font-size:200px;
+}
+h9{
+	font-size:20px;
+	align:right;
+	color:#red;
+        postion:absolute;
+        z-index:999999;
+}
+
+
+.neon
+{
+        position:absolute;
+        top:10%;
+        left:25%;
+	translate:transform (-50%,-50%);
+	margin:0;
+	padding:0 20px;
+	font-size:30px;
+	color:#ffffff;
+	text-shadow:0 0 20px;
+}
+.neon:after
+{
+	top:0;
+	left:0;
+	content:attr(data-text);
+	position:absolute;
+	padding:0 0 20px;
+	z-index:-1;
+	color:#ffffff;
+	filter:blur(15px);
+}
+.neon:before
+{
+	content:" ";
+	top:0;
+	left:0;
+	position:absolute;
+	background:#ffffff;
+	z-index:-3;
+	opacity:.5;
+	filter:blur(40px);
+}
+h7{
+font-color:#ffffff;
+position:relevant;
+}
+
+.cube{
+  left:700px;
+        top:100px;
+        position: absolute;
+	width:300px;
+	height:500px;
+        transform-style:preserve-3d;
+        transform: rotate(50deg) rotateY(-100deg) rotateX(70deg) rotateZ(-1015deg);
+       animation:money 10s infinite ;
+       -webkit-animation: money 10s infinite;/* Safari 4.0 - 8.0 */
+}
+ 
+
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes money{
+ 0% { transform:rotateY(70deg);}
+100% { transform:rotateY(-30deg);}
+
+  
+}
+		  
+@keyframes  money{
+ 0% { transform:rotateY(70deg);}
+100% { transform:rotateY(-30deg);}
+
+}  
+
+.side {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  border-style:outset;
+       border-color:rgb(255, 255, 255);
+}
+.sides {
+  width: 150px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  border-style:outset;
+       border-color:rgb(255, 255, 255);
+}
+.front {
+  transform: translateZ(-115px);
+  position:absolute;
+ background-color:rgb(50,0,0);
+	border-style:outset;
+       border-color:rgb(255,215,0);
+}
+
+.frontpage1 {
+  left:0%;
+  width: 100%;
+  transform: translateZ(-115px)  translate(-165px) rotateY(-220deg);
+  transform-origin: right;
+  border-color:rgb(0, 0, 0);
+  background-size:100% 100%;
+  border-style:outset;
+      
+}	
+.frontpage2 {
+  left:0%;
+  width: 100%;
+  transform: translateZ(-115px)  translate(-165px) rotateY(-220deg);
+  transform-origin: right;
+  border-color:rgb(0, 0, 0);
+  background-size:100% 100%;
+  border-style:outset;
+}	
+.frontpage3 {
+  left:0%;
+  width: 100%;
+  transform: translateZ(-115px)  translate(-175px) rotateY(-220deg);
+  transform-origin: right;
+  border-color:rgb(0, 0, 0);
+  background-size:100% 100%;
+  border-style:outset;
+}	
+.frontpage4 {
+  left:0%;
+  width: 100%;
+  transform: translateZ(-115px)  translate(-185px) rotateY(-220deg);
+  transform-origin: right;
+  border-color:rgb(0, 0, 0);
+  background-size:100% 100%;
+  border-style:outset;
+       bacground-color:rgba(255, 255, 255, .1);
+}
+.frontpage5 {
+  left:0%;
+  width: 100%;
+  transform: translateZ(-115px)  translate(-195px) rotateY(-220deg);
+  transform-origin: right;
+border-color:rgb(0, 0, 0);
+  background-size:100% 100%;
+  border-style:outset;
+       bacground-color:rgba(255, 255, 255, .1);
+}
+.frontpage6 {
+  z-index:5;
+  left:0%;
+  width: 100%;
+  transform: translateZ(-115px)  translate(-205px) rotateY(-220deg);
+  transform-origin: right;
+  bacground-color:rgba(255, 255, 255,.8);
+  background-size:100% 100%;
+  border-size:thin;
+       border-color:rgb(0, 0, 0);
+      animation:lit 5s infinite ;
+       -webkit-animation: lit 5s alternate infinite;/* Safari 4.0 - 8.0 */
+}
+}
+
+@-webkit-keyframes lit{
+ 0% {  transform: translateZ(-115px)  translate(-205px) rotateY(-220deg);}
+100% {  transform: translateZ(-115px)  translate(-255px) rotateY(-310deg);}
+  
+}
+		  
+@keyframes  lit{
+ 0% {  transform: translateZ(-115px)  translate(-205px) rotateY(-220deg);}
+100% { transform: translateZ(-115px)  translate(-255px) rotateY(-310deg);}
+
+} 
+
+.left {left:0%;
+  width: 100%;
+  transform: translateZ(-115px)  translate(-155px) rotateY(-220deg);
+  transform-origin: right;
+  background-color:rgb(0,0,0);
+  background-size:100% 100%;
+  border-style:outset;
+       border-color:rgb(255,215,0);
+}	
+
+.right {
+  width: 100%;
+  transform: translateZ(-115px) rotateY(220deg);
+  transform-origin: left;
+  background-color:rgb(0,255,255);
+  background-size:100% 100%;
+  border-style:outset;
+       border-color:rgb(255,215,0);
+}	
+
+	/* Safari 4.0 - 8.0 */
+@-webkit-keyframes alotofmoney{
+ 0% { right:0%;}
+100% { right:100%;}
+
+}
+		  
+@keyframes  alotofmoney{
+ 0% { right:0%;}
+100% { right:100%;}
+
+}  
+		   ul {
+	   top:15%;
+         float:left;
+       list-style: none;
+        position:absolute;
+	z-index:30;
+    }
+
+ul li {
+position:relative;
+    font-size:20px;
+    font-family: ariel;
+    text-align:center;
+    }
+
+.E2:hover {
+    float:none;
+    background-color:aqua; 
+    }
+
+ul li ul li {
+    display: none;
+position:relative;
+}
+
+ul li:hover ul li {
+    z-index:999;
+    width:99%;
+    height:99%;
+    display: block;
+    Position:relative;
+}
+
+body{
+	background-image:url("https://get.wallhere.com/photo/landscape-sea-sand-beach-movies-coast-cliff-desert-Mars-Sahara-The-Martian-Terrain-material-3000x2000-px-natural-environment-landform-geographical-feature-extreme-sport-wadi-aeolian-landform-erg-630585.jpg" );
+       
+         background-size:100% 2000px;
+         overflow:hidden;
+	 width:98%;
+	 height:2000px;
+	 		
+           }
